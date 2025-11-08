@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  padding: 10px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 39px;
+  font-weight:300;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.nav a {
+  margin-left: 30px;
+  font-size: 14px;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.nav a:hover {
+  opacity: 1;
+  color: #e30813; /* carmesí */
+}
+
+.logo {
+  height: 3em;
+  padding: 0.5em;
+  will-change: filter;
+  transition: filter 300ms;
+
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #E20C19);
+}

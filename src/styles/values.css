@@ -1,0 +1,37 @@
+.values h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+
+.value {
+  position: relative;
+  padding-left: 20px;
+}
+
+.v-line {
+  width: 3px;
+  height: 100%;
+  background: #e30813;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.value h3 {
+  font-size: 26px;
+  margin-bottom: 14px;
+  letter-spacing: 1px;
+}
+
+.value p {
+  font-size: 16px;
+  color: #bbbbbb;
+  line-height: 1.5;
+}

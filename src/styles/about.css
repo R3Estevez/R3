@@ -1,0 +1,26 @@
+.about h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 4px;
+  gap: 60px;
+}
+
+.about-line {
+  background: #e30813;
+  border-radius: 2px;
+}
+
+.about-text p {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.about-text span {
+  color: #e30813;
+}

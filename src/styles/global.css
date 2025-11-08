@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #ffffff;          /* Negro Petróleo */
+  color: #0c0d0d;               /* Blanco Base */
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  width: 100%;
+  padding: 120px 140px;
+}
+
+@media (max-width: 900px) {
+  section {
+    padding: 80px 20px;
+  }
+}

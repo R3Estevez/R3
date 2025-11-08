@@ -1,0 +1,40 @@
+.hero {
+  padding-top: 200px;
+}
+
+.hero h1 {
+  font-size: 56px;
+  font-weight: 600;
+  max-width: 750px;
+  line-height: 1.1;
+}
+
+.hero p {
+  margin-top: 22px;
+  max-width: 480px;
+  font-size: 18px;
+  color: #e30813;
+}
+
+.cta {
+  margin-top: 40px;
+  padding: 17px 30px;
+  background: #e30813;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cta:hover {
+  opacity: 0.85;
+}
+.element{
+    padding: 130px 20px;
+    background: #E30813;
+background: radial-gradient(circle,rgba(227, 8, 19, 1) 8%, rgba(230, 28, 18, 1) 38%, rgba(236, 60, 17, 1) 57%, rgba(243, 98, 16, 1) 81%, rgba(246, 117, 15, 1) 88%, rgba(255, 170, 13, 1) 100%);
+    margin-right: 400px;
+    border-bottom-right-radius: 140px;
+}
